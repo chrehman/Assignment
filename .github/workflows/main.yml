@@ -29,6 +29,6 @@ jobs:
     - name: Intall Surge
       run: npm install --global surge
     - name: Deploying Website Using Surge
-      run: surge ./ adventurous-birth.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
+      run: surge ./ adventurous-birth.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
       
